@@ -1,8 +1,7 @@
-  ''' This function takes a dataframe as input ,replaces missing values for categorical features with
+''' This function takes a dataframe as input ,replaces missing values for categorical features with
      -9999.01 and for the numeric columns, the median of the column.
  
 replacemissing(data) 
-
 '''
 
 def replacemissing(data,replace_value=-9999.01):
